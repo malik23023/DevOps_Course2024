@@ -1,4 +1,4 @@
-# Blog 1: A Conspiracy: WASM Replacing Docker  
+# Blog 1: A Conspiracy: WASM Replacing Docker-with DEMO  
 
 ### Key Topic  
 Exploring whether WebAssembly (WASM) can replace Docker or complement it in modern software ecosystems.
