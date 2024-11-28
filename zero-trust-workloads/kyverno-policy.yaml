@@ -1,0 +1,23 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: cosign-image-policy
+spec:
+  rules:
+    - name: require-signed-images
+      match:
+        resources:
+          kinds:
+            - Pod
+      validate:
+        message: "Image must be signed with Cosign."
+        pattern:
+          spec:
+            containers:
+              - image: "cosign-signature/*"
+      context:
+        - name: cosign-public-key
+          value: |
+            -----BEGIN PUBLIC KEY-----
+            YOUR_COSIGN_PUBLIC_KEY_HERE
+            -----END PUBLIC KEY-----

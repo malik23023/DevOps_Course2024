@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: signed-pod
+spec:
+  containers:
+    - name: sample-container
+      image: abdullah1779/docker_web_app:latest
+      securityContext:
+        capabilities:
+          add: ["SIGN_IMAGE"]
+      imagePullPolicy: Always
+  imagePullSecrets:
+    - name: cosign-secret
