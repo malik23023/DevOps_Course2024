@@ -8,7 +8,9 @@
 ---
 
 ## **Summary**  
-I am a dedicated Software Engineering student at FAST NUCES, currently in my 4th year, with a solid foundation in software development and DevOps practices. My expertise includes Java, MERN Stack, Docker, and Kubernetes. I'm eager to expand my knowledge in cloud computing and modern DevOps methodologies. With hands-on experience in development and team leadership, I aim to tackle real-world challenges and contribute to innovative projects.
+I am a DevOps enthusiast and aspiring developer with a strong foundation in software development and cloud technologies. Currently a Software Engineering student at FAST NUCES, I have hands-on experience with tools like Docker, Kubernetes, Terraform, and GitHub Actions. Passionate about automation, containerization, and CI/CD pipelines, I aim to apply my skills to optimize and streamline development workflows.
+
+
 
 ---
 
@@ -26,23 +28,28 @@ I am a dedicated Software Engineering student at FAST NUCES, currently in my 4th
 
 ## **Experience**  
 
-### **Chief Operational Officer**  
-**Topsol** (October 2022 - Present)  
-- Led digital marketing projects while managing team operations.  
-- Developed projects in Java, C#, and C++ with a focus on UI/UX and web development.  
-- Delivered high-quality results on NFTs and Discord server management.  
-- Specialized in content writing and copywriting.  
+## Work Experience
 
-### **Freelancer**  
-(2021 - Present)  
-- Created Java-based console projects and desktop applications.  
-- Designed and developed WordPress websites and landing pages using HTML, CSS, and JavaScript.  
-- Delivered content writing projects and successfully managed client portfolios.  
+### Provisioning Kubernetes Clusters with Terraform
+- Automated the provisioning of an EKS cluster on AWS using Terraform.
+- Configured Kubernetes workloads and services for a containerized application.
+
+### CI/CD Pipeline for Secure Deployments
+- Implemented a CI/CD pipeline using Jenkins and GitHub Actions for a Python-based application.
+- Integrated Kyverno for Policy as Code and Cosign for container image signing.
+
+### Microservices Architecture Deployment
+- Designed and deployed microservices on Kubernetes with Istio for traffic management and observability.
+- Configured Prometheus and Grafana for monitoring and alerting.
+
+### Containerized Application Migration
+- Containerized a micro-service using Docker and deployed them on Kubernetes.
+- Ensured smooth transition by managing dependencies and inter-service communication.
 
 ---
 
 ## **Skills**  
-- **Programming Languages:** Core Java, JavaScript, C++, MERN Stack  
+- **Programming Languages:** Core Java, JavaScript, C++  
 - **DevOps Tools:** Docker, Kubernetes, Kyverno, Cosign, GitHub Actions  
 - **Development Practices:** OOP, Backend Development, Architectural Design  
 - **Project Management:** Design Thinking, Requirement Elicitation, SRS Documentation  
@@ -75,5 +82,5 @@ Designed an AI-integrated logistics platform to assist in bidding, cost estimati
 ---
 
 ## **Interests**  
-- Digital Marketing  
+- MLOps
 - Data Mining  
